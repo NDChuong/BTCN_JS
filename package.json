@@ -1,0 +1,12 @@
+{
+  "name": "BTCN_JS",
+  "version": "1.0.0",
+  "description": "JS Practising",
+  "main": "index.js",
+  "author": "NguyenDinhChuong <nguyendinhchuong2607@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "^3.3.1"
+  }
+}

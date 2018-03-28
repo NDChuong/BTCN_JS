@@ -1,0 +1,18 @@
+body{
+
+}
+
+#Slide{	
+	text-align: center;
+}
+#button{
+	height: 150px;
+	text-align: center;
+	font-size: 50px;	
+	color: black;
+	position: relative;
+	top: 25px;
+}
+#queue{
+	text-align: center;	
+}
