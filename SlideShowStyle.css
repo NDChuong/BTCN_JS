@@ -6,12 +6,9 @@ body{
 	text-align: center;
 }
 #button{
-	height: 150px;
-	text-align: center;
-	font-size: 50px;	
-	color: black;
-	position: relative;
-	top: 25px;
+	height: 100px;
+	width: 100px;					
+	margin: 0 auto;
 }
 #queue{
 	text-align: center;	

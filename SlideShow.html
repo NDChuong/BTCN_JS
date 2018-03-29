@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,34 @@
     <title>Slide Show</title>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="SlideShowStyle.css">
-    
 </head>
+
 <body>
-	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<div id="Slide">
-		<img src="image/1.jpg">
-	</div>
-	<div id="button" class="row">
-		<img src="image/play.jpg" alt="">
-	</div>
-	<div id="queue" class="row">
-		<img src="image/2.jpg" alt="">
-		<img src="image/3.jpg" alt="">
-		<img src="image/4.jpg" alt="">
-		<img src="image/5.jpg" alt="">
-	</div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <div id="Slide">
+        <img src="image/Originals/1.jpg">
+    </div>
+    <br>
+    <div id="button" onclick="start()">
+        <img src="image/play.jpg">
+    </div>
+    <br>
+    <div id="queue" class="row">
+        <span id="img1">
+			<img src="image/2.jpg">
+		</span>
+        <span id="img2">
+			<img src="image/3.jpg">
+		</span>
+        <span id="img3">
+			<img src="image/4.jpg">
+		</span>
+        <span id="img4">
+			<img src="image/5.jpg">
+		</span>
+    </div>
     <script src="SlideShow.js"></script>
 </body>
+
 </html>
