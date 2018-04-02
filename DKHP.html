@@ -14,48 +14,53 @@
 <body>
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <div id="banner"></div><br>
+    <div id="banner"></div>
+    <br>
     <div id="form">
-        <div class="row">
-            <div class="col-md-4">Họ và tên:</div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Text input">
+        <form action="#">
+            <br>
+            <div class="row">
+                <div class="col-md-4">Họ và tên:</div>
+                <div class="col-md-6">
+                    <input id="HoTen" type="text" name="HoTen" class="form-control" placeholder="Text input">
+                </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-4">MSSV:</div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Text input">
+            <br>
+            <div class="row">
+                <div class="col-md-4">MSSV:</div>
+                <div class="col-md-6">
+                    <input id="MSSV" type="text" name="MSSV" class="form-control" placeholder="Text input" value="">
+                </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-4">Lớp:</div>
-            <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Text input">
+            <br>
+            <div class="row">
+                <div class="col-md-4">Lớp:</div>
+                <div class="col-md-6">
+                    <input id="Lop" type="text" name="Lop" class="form-control" placeholder="Text input">
+                </div>
             </div>
-        </div>
-        <br>
-    </div><br>
+            <br>            
+    </div>
+    <br>
     <div id="button">
-        <button type="button" class="btn btn-success">SUBMIT</button>
-    </div><br>
+        <button type="reset" class="btn btn-success" onclick="func()">SUBMIT</button>
+    </div>
+    <br>
+    </form>
     <div id="table">
         <table class="table table-bordered">
             <thead>
-                <tr>                    
+                <tr>
                     <th>Họ và tên</th>
                     <th>MSSV</th>
                     <th>Lớp</th>
                 </tr>
             </thead>
-            <tbody>
-                
+            <tbody id="addHere">
             </tbody>
         </table>
     </div>
-    
+    <script type="text/javascript" src="DKHP.js"></script>
 </body>
 
 </html>
